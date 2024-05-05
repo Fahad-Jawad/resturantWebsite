@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/vendors/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="./assets/vendors/popins-font.css" />
+    <link rel="stylesheet" href="/resturant_app/assets/vendors/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/modifyOrder.css" />
+    <title>Modify Order</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-lg-12 upper">
+            <div class="upper-baner">
+                <div class="row">
+                    <div class="col-lg-3"><i class="fa-solid fa-grip-lines"></i></div>
+                    <div class="col-lg-6">
+                        <h1>FOOD ORDERING SYSTEM</h1>
+                    </div>
+                    <div class="col-lg-3"><a href="createAccount.html"> <button class="btn"><i class="fa-solid fa-face-smile"></i> Create
+                        Account</button></a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-1">
+            <div class="container-fluid side-menu">
+                <div class="menu-item "><a href="index.html"><i class="fas fa-home"></i>
+                    <p>Home</p></a>
+                </div>
+                <div class="menu-item"><a href="starters.html"><i class="fa-solid fa-square-plus"></i>
+                    <p>Add Food</p></a>
+                </div>
+                <div class="menu-item active"><a href="modifyOrder.html"><i class="fa-solid fa-pen-to-square"></i>
+                    <p>Modify Order</p></a>
+                </div>
+                <div class="menu-item"><a href="issueBill.html"><i class="fa-solid fa-clipboard-user"></i>
+                    <p>Issue Bill</p></a>
+                </div>
+                <div class="menu-item"><a href="#"><i class="fa-solid fa-gear"></i>
+                    <p>Setting</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-8">
+            <div class="container-fluid main-content">
+                <h3 class="order">My Orders</h3>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="table">Delivery Table</p>
+                        <h3>1234</h3>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card dish-info">
+                            <p>Preperation Time :</p>
+                            <p class="time">1 hr 30 min</p>
+                        </div>
+                        <div class="card dish-info">
+                            <p  class="mod-time">Modification Timer : </p>
+                            <p  class="time">05:00 min</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row cart">
+                   <div class="col-lg-12">
+                        <!-- cart-item-start -->
+                       <div class="card cart-item">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <img src="./assets/imgs/burger.png" alt="">
+                            </div>
+                            <div class="col-lg-4">
+                                <h3>Burger Boazza</h3>
+                                <h6>Extra Large</h6>
+                                <p class="type">Order Type : Starter </p>
+                                X<select class="form-select" aria-label="Default select example">
+                                    <option selected value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                  </select></div>
+                            <div class="col-lg-3">
+                                <div class="row btns">
+                                <button class="btn item-btn">Modify</button>
+                                <button class="btn item-btn"> <i class="fa fa-star" aria-hidden="true"></i> Note for Chef</button>
+                            </div>
+                            </div>
+                            <div class="col-lg-2"><h2 class="item-total-price">$35</h2></div>
+                        </div>
+                       </div>
+                        <!-- cart-item-end -->
+            <!-- cart-item-start -->
+                       <div class="card cart-item">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <img src="./assets/imgs/burger.png" alt="">
+                            </div>
+                            <div class="col-lg-4">
+                                <h3>Burger Boazza</h3>
+                                <h6>Extra Large</h6>
+                                <p class="type">Order Type : Starter </p>
+                                X<select class="form-select" aria-label="Default select example">
+                                    <option selected value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                  </select></div>
+                            <div class="col-lg-3">
+                                <div class="row btns">
+                                <button class="btn item-btn">Modify</button>
+                                <button class="btn item-btn"> <i class="fa fa-star" aria-hidden="true"></i> Note for Chef</button>
+                            </div>
+                            </div>
+                            <div class="col-lg-2"><h2 class="item-total-price">$35</h2></div>
+                        </div>
+                       </div>
+                   </div>
+ <!-- cart-item-end -->
+                </div>
+                <hr>
+                <div class="row total">
+                    <div class="col-lg-6 bottom-left">
+                        <h5>Sub Total : $145</h5>
+                        <h5>Delivery Charges : $15</h5>
+                    </div>
+                    <div class="col-lg-6 bottom-right">
+                        <button class="btn order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+           
+</div>
+ <!-- main-content-end -->
+            <div class="col-lg-3">
+                <div class="container-fluid right-side">
+                    <div class="card card-chef">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h4>
+                                        Special note<br />
+                                        for chef
+                                    </h4>
+
+                                </div>
+                                <div class="col-lg-4">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <img src="./assets/imgs/chef.png" alt="" />
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./assets/vendors/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+            integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

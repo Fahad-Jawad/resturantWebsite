@@ -1,0 +1,92 @@
+.account{
+    padding: 4% 15% !important;
+}
+.card-chef {
+    margin-top: 21%;
+    height: 87vh;
+    background:url("../imgs/issue-bill-right.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+    color: white;
+    padding: 25%;
+}
+.main-content {
+    .order{
+        color: #413D33;
+    }
+    margin-top: 3%;
+    .bill{
+        color: #3B3B3B;
+        border-radius: 15px;
+        background-color: #EDEDED;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        .left{
+            padding: 0;
+        }
+        .right{
+            padding-top:2% ;
+            padding-bottom: 0;
+            text-align: center;
+            .bill-card{
+                text-align: left;
+                border-radius: 15px;
+                -webkit-border-radius: 15px;
+                -moz-border-radius: 15px;
+                -ms-border-radius: 15px;
+                -o-border-radius: 15px;
+                margin: auto;
+                width: 45%;
+                padding:5%;
+                .card{
+                    text-align: center;
+                }
+                h6{
+                    margin: 3% 0%;
+                }
+}
+.order-btn{
+    width: 40%;
+    padding: 1.5%;
+    margin:5% 0%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background: linear-gradient(92.55deg, #C05438 9.16%, #F3825E 91.68%);
+    color: white;
+}
+        }
+    }
+
+   
+
+}
+
+.dish-info {
+    background-color: #EDEDED;
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 3%;
+
+    p {
+        color: #777777;
+        margin-bottom: 0;
+        padding-right: 15%;
+        padding-left: 5%;
+    }
+
+    .time {
+        color: #404040;
+    }
+
+    .mod-time {
+        padding-right: 11.5%;
+    }
+}

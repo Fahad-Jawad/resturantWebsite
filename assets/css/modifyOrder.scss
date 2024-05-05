@@ -1,0 +1,123 @@
+.card-chef {
+    margin-top: 24%;
+    height: 86vh;
+
+
+    img {
+        width: 80% !important;
+        margin-left: 0 !important;
+        margin-top: 40%;
+    }
+}
+
+.main-content {
+    margin-top: 2%;
+
+    .order {
+        color: #413D33;
+        margin-bottom: 2%;
+    }
+    .table{
+        color: #777777;
+    }
+    .cart{
+      
+    .cart-item{
+        margin-top: 3%;
+        padding: 3%;
+        width: 100%;
+        border-radius: 30px;
+
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        background-color:#EDEDED;
+        img{
+            border-radius: 25px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            -ms-border-radius: 25px;
+            -o-border-radius: 25px;
+}
+        .type{
+            color: #EF4611;
+            font-size: 12px;
+        }
+        .form-select{
+            margin-left: 3%;
+            padding: 3% 10%;
+            border-radius: 8px;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -ms-border-radius: 8px;
+            -o-border-radius: 8px;
+            color: #3B3B3B;
+        background-color: #E1E1E1;
+            option{
+                font-size: 18px;
+            }
+        }
+        .btns{
+            button{
+                font-size: 18px;
+                margin-bottom: 10%;
+                background-color: white;
+                width: 100%;
+                color: #3B3B3B;
+                i{
+                    color: #EF4611;
+                }
+            }
+        }
+        .item-total-price{
+            text-align: center;
+            padding-top: 32%;
+        }
+    }
+}
+.bottom-left{
+    padding: 3% 6%;
+}
+hr{
+    margin: 5% 0%;
+}
+.bottom-right{
+    text-align: center;
+    .order-btn{
+        width: 70%;
+        padding: 2.5%;
+        margin-top: 7%;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        background: linear-gradient(92.55deg, #C05438 9.16%, #F3825E 91.68%);
+        color: white;
+}
+}
+}
+
+.dish-info {
+    background-color: #EDEDED;
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 3%;
+
+    p {
+        color: #777777;
+        margin-bottom: 0;
+        padding-right: 15%;
+        padding-left: 5%;
+    }
+
+    .time {
+        color: #404040;
+    }
+
+    .mod-time {
+        padding-right: 11.5%;
+    }
+}

@@ -1,0 +1,65 @@
+.create-account{
+    width: 80%;
+    background-color: #E1E1E1;
+    padding: 1% 4%;
+    margin-top: 1%;
+    color: #F3825E ;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+   
+}
+h6{
+    margin-top: 1%;
+    font-size: 20px;
+    word-spacing: 10px;
+}
+.account{
+    margin-top: 8%;
+    
+    .filed{
+        margin-bottom: 7%;
+        font-size: 30px;
+        color: #4A5255;
+        input{
+            width: 80%;
+            font-size: 20px;
+            border: none;
+            border-bottom: 1px solid #4A5255;
+        }
+        span{
+            display: none;
+            font-size: 16px;
+            color: #FF5757;
+        }
+    }
+    .order-btn{
+        width: 30%;
+        padding: 1%;
+        margin: 2% 0%;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        background: linear-gradient(92.55deg, #C05438 9.16%, #F3825E 91.68%);
+        color: white;
+}
+}
+.botton-card{
+    width: 100%;
+    margin-top: 5%;
+    padding: 5%;
+    background: url("../imgs/bottom-card.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
